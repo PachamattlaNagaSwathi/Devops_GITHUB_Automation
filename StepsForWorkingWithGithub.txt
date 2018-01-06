@@ -1,0 +1,64 @@
+GITHUB
+?	Install Git (MINGW) on windows
+?	Open GIT Bash
+?	Cd C:
+?	Mkdir GIT
+?	Cd GIT
+?	git init
+?	git config - - global user.name “Your_User_Name” 
+?	git config - - global user.email “xyz@gmail.com”  
+?	git clone https://github.com/AbhiReddyMiru/Demo
+https://github.com/AbhiReddyMiru/GIVE_YOUR_REPOS_NAME
+?	ls (U can see all files what are there in your GITHUB repos)
+?	Add some file in /c/git/Demo (ex: test.py)
+?	git add test.py
+?	git status
+YOU WILL SEE SOMETHING LIKE THIS
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.py
+?	git commit -m "This a first commit" test.py(filename)
+?	git push -u origin master
+It will ask GITHUB NAME and PASSWORD
+?	You will find your newly added file in your GITHUB repo
+Commands:
+Remove Directory: rm -rf Directory name
+Login in to sub branch: git clone -b loginissue(SubBranchName) http://github/AbhiReddyMiru/Demo.git
+Git remote -v : display origin and link 
+EXCERSICE ON GITHUB WHEN BOTH CLIENTS USING SAME REPOS
+1.	Created two folder name AliceRepo and BobRepo
+2.	Open two Git Bash for both Alice and Bob Repo
+3.	For Both
+-	git init
+-	git config - - global user.name “Your_User_Name” 
+-	git config - - global user.email “xyz@gmail.com”  
+-	git clone  http://www.gitbuh.com/Copy_From_Clipboard
+-	cd Repo_Name
+-	Check both folder have all the files which are in u your Repo.
+4.	Make changes for files whatever you want in both Bob and Alice folder.
+5.	git status: Shows the status for modified files which are in RED
+6.	git add . (make changes in your local machine)
+7.	git status: You can see in GREEN
+For Alice_Repo: (IN_ALICE_GITBASH)
+-	git commit -m “Commit is made by Alice”
+-	git push -u origin master
+-	check your repo Changes will be made which are done by ALICE.
+For Bob_Repo: (IN_BOB_GITBASH)
+-	git commit -m “Commit is made by BOB”
+-	git push -u origin master
+•	You will see it will be rejected. 
+8.	Now you want to make changes in master which are done by BOB. So in BOB GIT_BASH
+-	git pull - - rebase origin master
+-	git status
+you can see what all changes made before you, what are making conflict
+-	git mergetool  this will help you to merge you contect in master.
+ 
+9.	bottom part  is your changes
+see if you want to make any changes. Press i for insertion mode
+orelsse exit by :wq option
+10.	git rebase  - - continue
+11.	git push -u origin master
+you can find changes in GITHUB
