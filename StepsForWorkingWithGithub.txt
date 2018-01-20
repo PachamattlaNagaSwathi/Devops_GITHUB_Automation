@@ -1,4 +1,5 @@
-###GITHUB
+###GITHUB###
+
 ?	Install Git (MINGW) on windows
 ?	Open GIT Bash
 ?	Cd C:
