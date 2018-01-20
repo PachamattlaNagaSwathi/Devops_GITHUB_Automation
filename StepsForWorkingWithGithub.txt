@@ -1,12 +1,12 @@
-GITHUB
+###GITHUB
 ?	Install Git (MINGW) on windows
 ?	Open GIT Bash
 ?	Cd C:
 ?	Mkdir GIT
 ?	Cd GIT
 ?	git init
-?	git config - - global user.name ìYour_User_Nameî 
-?	git config - - global user.email ìxyz@gmail.comî  
+?	git config - - global user.name ‚ÄúYour_User_Name‚Äù 
+?	git config - - global user.email ‚Äúxyz@gmail.com‚Äù  
 ?	git clone https://github.com/AbhiReddyMiru/Demo
 https://github.com/AbhiReddyMiru/GIVE_YOUR_REPOS_NAME
 ?	ls (U can see all files what are there in your GITHUB repos)
@@ -33,8 +33,8 @@ EXCERSICE ON GITHUB WHEN BOTH CLIENTS USING SAME REPOS
 2.	Open two Git Bash for both Alice and Bob Repo
 3.	For Both
 -	git init
--	git config - - global user.name ìYour_User_Nameî 
--	git config - - global user.email ìxyz@gmail.comî  
+-	git config - - global user.name ‚ÄúYour_User_Name‚Äù 
+-	git config - - global user.email ‚Äúxyz@gmail.com‚Äù  
 -	git clone  http://www.gitbuh.com/Copy_From_Clipboard
 -	cd Repo_Name
 -	Check both folder have all the files which are in u your Repo.
@@ -43,13 +43,13 @@ EXCERSICE ON GITHUB WHEN BOTH CLIENTS USING SAME REPOS
 6.	git add . (make changes in your local machine)
 7.	git status: You can see in GREEN
 For Alice_Repo: (IN_ALICE_GITBASH)
--	git commit -m ìCommit is made by Aliceî
+-	git commit -m ‚ÄúCommit is made by Alice‚Äù
 -	git push -u origin master
 -	check your repo Changes will be made which are done by ALICE.
 For Bob_Repo: (IN_BOB_GITBASH)
--	git commit -m ìCommit is made by BOBî
+-	git commit -m ‚ÄúCommit is made by BOB‚Äù
 -	git push -u origin master
-ï	You will see it will be rejected. 
+‚Ä¢	You will see it will be rejected. 
 8.	Now you want to make changes in master which are done by BOB. So in BOB GIT_BASH
 -	git pull - - rebase origin master
 -	git status
